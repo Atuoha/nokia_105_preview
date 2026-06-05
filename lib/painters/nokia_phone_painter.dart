@@ -149,7 +149,7 @@ class NokiaPhonePainter extends CustomPainter {
 
       final TextPainter timePainter = TextPainter(
         text: TextSpan(
-          text: '20:21',
+          text: '03:21',
           style: TextStyle(color: Colors.white.withAlpha((255 * fadeProgress).toInt()), fontSize: w * 0.14, fontWeight: FontWeight.w300),
         ),
         textDirection: TextDirection.ltr,
@@ -159,7 +159,7 @@ class NokiaPhonePainter extends CustomPainter {
 
       final TextPainter datePainter = TextPainter(
         text: TextSpan(
-          text: '30.12.2021',
+          text: '05.06.2026',
           style: TextStyle(color: Colors.white70.withAlpha((178 * fadeProgress).toInt()), fontSize: w * 0.04),
         ),
         textDirection: TextDirection.ltr,
